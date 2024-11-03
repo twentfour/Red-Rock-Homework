@@ -1,0 +1,91 @@
+.top{
+    background-color: rgb(78, 110, 242);
+    border: none;
+    height: 25px;
+}
+.topp{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(78, 110, 242)
+}
+.nav{
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 0.5%;;
+}
+.a{
+    font-weight: 600;
+    color: black;
+    font-size: small;
+    margin-right: 15px;
+}
+.aa{
+    color: black;
+    font-size: small;
+    margin-right: 15px;
+}
+.blank{
+    width: 100%;
+    height: 40px;
+}
+.logo{
+    width: 300px;
+    margin: 10px auto 10px;
+    display: block;
+}
+
+
+
+.inbox{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+.inbox .main{
+    flex-grow: 1;
+}
+/* 输入框 */
+.inbox .main input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(189, 191, 196);
+    border-right: none;
+}
+/* 蓝色按钮 */
+.inbox>input{
+    width: 100px;
+    background-color: rgb(78, 110, 242);
+    color: white;
+    border: none;
+}
+
+
+
+.code{
+    width: 100px;
+    margin: 10px auto 1px;
+    display: block;
+}
+.word{
+    text-align: center;
+    position: absolute;
+        bottom: 8%;
+        top: auto;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+}
+.word .wordd{
+    color: rgb(189, 191, 196);
+    margin: 0px auto 20px
+    
+}
+.base{
+    color: rgb(189, 191, 196);
+    font-size: small;
+    margin: 10px auto 10px
+}
+.base a{
+    color: inherit;
+}
